@@ -1,0 +1,47 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+textarea, button {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc; /* Menambahkan border ke textarea dan tombol */
+  border-radius: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Efek transisi pada latar belakang dan scale saat dihover */
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05); /* Membesarkan tombol saat dihover */
+}
+
+label {
+  font-weight: bold;
+}
+
+#output {
+  background-color: #f0f0f0;
+}
+
+/* Efek transisi untuk textarea dan tombol saat mendapatkan fokus */
+textarea:focus, button:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Gaya untuk tombol "Reset" dan "Reverse" */
+#reset, #reverse {
+  background-color: #e74c3c;
+}
+
+#reset:hover, #reverse:hover {
+  background-color: #c0392b;
+}
